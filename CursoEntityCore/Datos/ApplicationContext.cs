@@ -10,5 +10,6 @@ namespace CursoEntityCore.Datos
         
         }
         public DbSet<Categoria> Categoria { get; set; }
+        public DbSet<Producto> Producto { get; set; }
     }
 }
