@@ -11,5 +11,6 @@ namespace CursoEntityCore.Datos
         }
         public DbSet<Categoria> Categoria { get; set; }
         public DbSet<Producto> Producto { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
     }
 }
